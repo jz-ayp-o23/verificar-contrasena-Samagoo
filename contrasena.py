@@ -20,7 +20,9 @@ longitud = False
     if contrasena[0].isdigit():
         numero = True
     if longitud and mayusculas>=2 and numero == False:
-        resultado = 'Contraseña válida'
+        resultado = 'La contraseña sí cumple con los requisitos'
+    else: 
+        resultado = 'La contraseña no cumple con los requisitos'
 
 # Salidas
 print(resultado)
